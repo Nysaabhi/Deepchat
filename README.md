@@ -1426,5 +1426,3 @@ function setupEventListeners() {
     });
 }    
     </script>
-        </body>
-</html>
