@@ -804,15 +804,6 @@
         <!-- Menu items will be dynamically populated -->
     </div>
 
-    <div class="chat-input-container">
-        <input type="text" id="chatInput" placeholder="Search for services or ask a question..." />
-        <div class="input-actions">
-            <button class="send-message" id="sendButton">
-                <i class="fas fa-paper-plane"></i>
-            </button>
-        </div>
-    </div>
-
     <!-- Bottom Navigation -->
     <nav class="bottom-nav">
         <div class="nav-container">
@@ -849,7 +840,15 @@
         </div>
     </nav>
     
-    
+    <div class="chat-input-container">
+        <input type="text" id="chatInput" placeholder="Search for services or ask a question..." />
+        <div class="input-actions">
+            <button class="send-message" id="sendButton">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
